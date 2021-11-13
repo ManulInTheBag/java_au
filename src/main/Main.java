@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        String txtFile = "src/test/java/testFile.txt";
-        String oldFile = "src/test/java/testSourceFile.md";
+        String txtFile = "src/test/java/fortest.txt";
+        String oldFile = "src/test/java/result.md";
         ArrayList<String> txtFileContent = Utils.readData(txtFile);
         ArrayList<String> oldFileContent = Utils.readData(oldFile);
         String[] oldFileName = oldFile.split("\\.");
